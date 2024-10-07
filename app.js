@@ -36,10 +36,7 @@ const apikey="32e155ec4d9037a3bf78819adf0bcbc6";
    document.querySelector(".weather").style.display="block";
    document.querySelector(".error").style.display="none";
    }
-        }
-        
-        
-           
+        }          
     searchBtn.addEventListener("click",()=>{
         checkweather(searchbox.value);
     })    
